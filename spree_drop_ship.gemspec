@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_drop_ship'
-  s.version     = '3.0.0.beta'
+  s.version     = '3.0.0'
   s.summary     = 'Spree Drop Shipping Extension'
   s.description = 'Adds drop shipping functionality to Spree stores.'
   s.required_ruby_version = '>= 2.0.0'
@@ -23,14 +23,14 @@ Gem::Specification.new do |s|
   s.add_dependency 'spree_backend', spree_version
   s.add_dependency 'spree_core', spree_version
 
-  s.add_development_dependency 'capybara',           '~> 2.4.1'
-  s.add_development_dependency 'coffee-rails', '~> 4.0.0'
+  s.add_development_dependency 'capybara',           '~> 2.4.4'
+  s.add_development_dependency 'coffee-rails',    '~> 4.0.0'
   s.add_development_dependency 'coveralls'
-  s.add_development_dependency 'database_cleaner', '~> 1.2.0'
+  s.add_development_dependency 'database_cleaner', '~> 1.3.0'
   s.add_development_dependency 'factory_girl_rails', '~> 4.2'
-  s.add_development_dependency 'ffaker'
+  s.add_development_dependency 'ffaker', '~> 1.16'
   s.add_development_dependency 'launchy'
-  s.add_development_dependency 'rspec-rails',        '~> 3.0.0'
+  s.add_development_dependency 'rspec-rails',        '~> 3.1.0'
   s.add_development_dependency 'sass-rails',         '~> 4.0.0'
   s.add_development_dependency 'selenium-webdriver'
   s.add_development_dependency 'shoulda-matchers', '~> 2.6.2'
